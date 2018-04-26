@@ -1,0 +1,12 @@
+{
+  "name": "mhf-cordova-demo",
+  "version": "1.0.0",
+  "description": "a simple demo for cordova and vue",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "mhf",
+  "license": "MIT"
+}
