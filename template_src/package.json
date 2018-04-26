@@ -29,8 +29,14 @@
     },
     "cordova": {
         "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-geolocation": {}
         },
         "platforms": [
+            "android",
+            "browser"
         ]
     },
     "devDependencies": {
