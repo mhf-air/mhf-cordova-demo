@@ -14,9 +14,26 @@ export function use(Vue, componentList) {
   })
 }
 
+// app
+
+// icon
+import IconBase from "./icon/aa-icon-base.vue"
+import IconAngleBracket from "./icon/angle-bracket.vue"
+import IconBack from "./icon/back.vue"
+import IconForward from "./icon/forward.vue"
+import IconCheck from "./icon/check.vue"
+import IconCross from "./icon/cross.vue"
+import IconTriangle from "./icon/triangle.vue"
+import IconSearch from "./icon/search.vue"
+import IconMessage from "./icon/message.vue"
+import IconTreeOpen from "./icon/tree-open.vue"
+import IconTreeClosed from "./icon/tree-closed.vue"
+import IconLoading from "./icon/loading.vue"
+
 // basic
 import V from "./basic/v.vue"
 import H from "./basic/h.vue"
+import { PageCache } from "./basic/page-cache.js"
 
 // data
 
@@ -27,21 +44,45 @@ import H from "./basic/h.vue"
 // notice
 
 // other
-import CountDown from "./other/count-down.vue"
-import Calendar from "./other/calendar.vue"
 
 export {
+
+  IconBase,
+  IconAngleBracket,
+  IconBack,
+  IconForward,
+  IconCheck,
+  IconCross,
+  IconTriangle,
+  IconSearch,
+  IconMessage,
+  IconTreeOpen,
+  IconTreeClosed,
+  IconLoading,
+
   V,
   H,
+  PageCache,
 
-  CountDown,
-  Calendar,
 }
 
 const components = [
+
+  IconBase,
+  IconAngleBracket,
+  IconBack,
+  IconForward,
+  IconCheck,
+  IconCross,
+  IconTriangle,
+  IconSearch,
+  IconMessage,
+  IconTreeOpen,
+  IconTreeClosed,
+  IconLoading,
+
   V,
   H,
+  PageCache,
 
-  CountDown,
-  Calendar,
 ]
