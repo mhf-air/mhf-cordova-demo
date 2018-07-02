@@ -1,16 +1,18 @@
 <template lang="pug">
-div hello
+div.root
+  div hello
 </template>
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      imgSrc: "",
     }
   },
 }
 </script>
 
 <style lang="stylus" scoped>
+@import "../common.styl"
+
 </style>

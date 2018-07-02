@@ -106,26 +106,28 @@ textarea {
 
 a {
   text-decoration: none;
-  color: #6f6660;
+  color: #212121;
 }
 
-a:hover {
+/* a:hover {
   color: #000;
-}
+} */
 
 ul,
 ol {
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
 }
 
+/* 
 .g-page-center {
   padding: 0 calc(50% - 38rem);
 }
+ */
 
 .g-absolute {
   position: absolute;
@@ -135,19 +137,23 @@ li {
   position: relative;
 }
 
+.g-fixed {
+  position: fixed;
+}
 
+/* .g-root {
+  z-index: -1;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #eeeeee;
+  overflow-y: scroll;
+} */
 
-
-
-
-
-
-
-
-
-
-
-
+/* ==========================================================================
+   media queries
+   ========================================================================== */
 
 @media (min-width: 1281px) {
   body::after {

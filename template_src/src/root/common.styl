@@ -1,6 +1,17 @@
 // ================================================================================
 primary = #ff6700
 
+// 文字超出隐藏，并显示省略号
+text-ellipsis()
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+
+overflow-no-scrollbar()
+  overflow: scroll
+  &::-webkit-scrollbar
+    display: none
+
 // ================================================================================
 // color
 

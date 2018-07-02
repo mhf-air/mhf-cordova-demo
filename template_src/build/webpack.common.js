@@ -1,10 +1,8 @@
 const path = require("path")
-const webpack = require("webpack")
 
-console.log(__dirname)
 module.exports = {
   entry: {
-    app: "./src/app.js",
+    app: ["babel-polyfill", "./src/app.js"],
   },
   output: {
     path: path.resolve(__dirname, "../www/js"),
@@ -13,7 +11,7 @@ module.exports = {
   module: {
     rules: [{
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: path.resolve(__dirname, "../node_modules"),
         use: {
           loader: "babel-loader",
         },
