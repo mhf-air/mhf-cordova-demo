@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import "./common.styl"
+@import "~common.styl"
 
 .slide-left-leave
 .slide-left-enter-to

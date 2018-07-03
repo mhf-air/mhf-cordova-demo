@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import "../../common.styl"
+@import "~common.styl"
 
 .content
   margin: 0.5rem
