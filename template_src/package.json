@@ -9,7 +9,7 @@
         "dev-b": "yarn run dev-js && cordova run browser",
         "dev-a": "yarn run dev-js && cordova run android",
         "dev-i": "yarn run dev-js && cordova run ios",
-        "p-js": "webpack --config build/webpack.production.js",
+        "p-js": "webpack --config build/webpack.production.js --progress",
         "p-a": "yarn run p-js && cordova build android && yarn run dev-cp-apk",
         "p-i": "yarn run p-js && cordova build ios",
         "dev-cp-apk": "cp platforms/android/app/build/outputs/apk/debug/app-debug.apk /run/user/1000/gvfs/*/内部存储设备/360",

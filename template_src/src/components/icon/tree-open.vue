@@ -1,22 +1,22 @@
 <template lang="pug">
-  IconBase(
-      iconName="tree-open"
+IconBase(
+    iconName="tree-open"
 
-      :width="width"
-      :height="height"
+    :width="width"
+    :height="height"
 
-      :fill="fill"
-      :fill-opacity="fillOpacity"
+    :fill="fill"
+    :fill-opacity="fillOpacity"
 
-      :stroke="stroke"
-      :stroke-width="strokeWidth"
-      :stroke-linecap="strokeLinecap"
-      :stroke-linejoin="strokeLinejoin"
-      :stroke-opacity="strokeOpacity"
+    :stroke="stroke"
+    :stroke-width="strokeWidth"
+    :stroke-linecap="strokeLinecap"
+    :stroke-linejoin="strokeLinejoin"
+    :stroke-opacity="strokeOpacity"
+    )
+  polygon(
+      points="24 30, 50 70, 76 30"
       )
-    polygon(
-        points="24 30, 50 70, 76 30"
-        )
 </template>
 
 <script>

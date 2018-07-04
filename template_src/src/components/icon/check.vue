@@ -1,22 +1,22 @@
 <template lang="pug">
-  IconBase(
-      iconName="check"
+IconBase(
+    iconName="check"
 
-      :width="width"
-      :height="height"
+    :width="width"
+    :height="height"
 
-      :fill="fill"
-      :fill-opacity="fillOpacity"
+    :fill="fill"
+    :fill-opacity="fillOpacity"
 
-      :stroke="stroke"
-      :stroke-width="strokeWidth"
-      :stroke-linecap="strokeLinecap"
-      :stroke-linejoin="strokeLinejoin"
-      :stroke-opacity="strokeOpacity"
+    :stroke="stroke"
+    :stroke-width="strokeWidth"
+    :stroke-linecap="strokeLinecap"
+    :stroke-linejoin="strokeLinejoin"
+    :stroke-opacity="strokeOpacity"
+    )
+  polyline(
+      points="20 50, 40 80, 90 20"
       )
-    polyline(
-        points="20 50, 40 80, 90 20"
-        )
 </template>
 
 <script>
