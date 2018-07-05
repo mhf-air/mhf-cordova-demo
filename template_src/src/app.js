@@ -82,7 +82,7 @@ new Vue({
   },
 
   created() {
-    this.checkLoginStatus()
+    // this.checkLoginStatus()
     document.addEventListener("backbutton", this.Back, false)
   },
 
